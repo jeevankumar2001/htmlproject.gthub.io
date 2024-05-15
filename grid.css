@@ -1,0 +1,31 @@
+.box{
+    background-color: green;
+    color: white;
+    /*text-align: center; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display:grid;
+/*       grid-template-rows: 80px 8opx 80px; */
+/*    grid-template-columns: 80px 80px 80px 80px; */
+   grid-template-columns: 1fr 1fr 1fr ;
+   gap: 5px;
+   /* grid-auto-flow: column;*/
+   grid-template-rows: 80px 80px 80px;
+   grid-auto-rows: 80px;
+
+}
+.box1{
+    grid-column: span 1;
+    background-color: red;
+}
+.box4{
+    grid-row: span 2;
+    background-color: yellow;
+}
+.box3{
+    grid-row:span 2 ;
+    background-color: blue;
+}

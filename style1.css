@@ -1,0 +1,26 @@
+*{
+   color: blueviolet; 
+}
+h3{
+    color: yellow;
+}
+h1,h2,h4{
+    color: brown;
+}
+#text{
+    color: pink;
+}
+.hey{
+    color: chartreuse;
+}
+p>i{
+    color: red;
+} */
+h1~h3{
+    color: darkblue;
+}
+h1+h2{
+    color: red;
+}
+
+

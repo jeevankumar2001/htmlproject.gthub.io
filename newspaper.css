@@ -1,0 +1,8 @@
+.sakshi p {
+    width: 30%;
+    float: left;
+}
+
+.sakshi p:nth-child(4) {
+    clear: left;
+}

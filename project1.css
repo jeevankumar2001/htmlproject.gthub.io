@@ -1,0 +1,21 @@
+.heading{
+    text-align: center;
+    background-color: red(197,11,11);
+    color: white;
+    text-decoration: underline;
+
+}
+#head1{
+    padding: 0.6em;}
+o1.b{
+    list-style-type: upper-alpha;}
+.a{
+    list-style-type: circle;
+    background-color: yellow;
+    padding: 1.5em 1.5em 1.5em 0em;
+    color: blue(12, 12, 183); }   
+.c{
+    background-color: blue;
+    padding: 1.5em 1.5em 0em;
+    color: gray;
+}    

@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.project{
+    background-color: blue(62, 62, 212, 0.737);
+    border: 2px solid black;
+    width: 1600px;
+    height: 330px;
+}
+.project p{
+    width: 35%;
+    float: left;
+    padding: 1em;
+    margin: 1em;
+    border: 5px dotted white;
+}
+.project p:nth-child(1){
+    background-color: brown;
+    padding-right: 11em;
+    padding-bottom: 200px;
+}
+.project p:nth-child(2){
+    background-color: yellow;
+    padding-right: 11em;
+    padding-bottom: 200px;
+}
